@@ -1,0 +1,55 @@
+//这道超级简单的题目没有任何输入。
+
+//你只需要把这句很重要的话 —— I Love GPLT ——竖着输出就可以了。
+
+//所谓“竖着输出”，是指每个字符占一行（包括空格），即每行只能有1个字符和回车。
+
+//2022.10.13
+//0：44
+//1是PTA上的正确答案，理论上2也一样，输出结果是一样的，但有可能是PTA的标准答案就是1，所以2一直不通过，显示格式错误，最后查阅CSDN才改成了1.
+//\n换行符可以一直加，换多行
+
+//1.
+#include<stdio.h>
+ 
+int main()
+ 
+{
+	printf("I\n");
+	printf(" \n");
+  printf("L\n");
+	printf("o\n");
+	printf("v\n");
+	printf("e\n");
+  printf(" \n");
+	printf("G\n");
+	printf("P\n");
+	printf("L\n");
+	printf("T\n");
+    
+     return 0;
+
+ } 
+ 
+ 
+//2.
+ #include<stdio.h>
+ 
+int main()
+ 
+{
+	printf("I\n\n");
+	
+  printf("L\n");
+	printf("o\n");
+	printf("v\n");
+	printf("e\n\n");
+  
+	printf("G\n");
+	printf("P\n");
+	printf("L\n");
+	printf("T\n\n");
+    
+     return 0;
+
+ } 
